@@ -13,8 +13,8 @@
 .right-nav > ul {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  width: 200px;
+  // align-items: flex-start;
+  width: 250px;
 }
 
 .left-nav > ul > li {
@@ -33,12 +33,13 @@
 
 .right-nav > ul > li:last-of-type {
   font-size: 16px;
+  position: relative;
 }
 
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  background-color: $gray;
+  // background-color: $lightest-gray;
 }
 
 // .left-nav span {

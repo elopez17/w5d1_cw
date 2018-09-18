@@ -1,1 +1,19 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+#gear-dropdown {
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  padding: 10px;
+  box-shadow: 10px black;
+}
+
+.dropdown-subtitle {
+  font-weight: bold;
+}
+
+.dropdown-subtitle li:hover {
+  background-color: grey;
+}
