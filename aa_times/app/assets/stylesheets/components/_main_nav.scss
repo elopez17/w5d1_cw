@@ -4,9 +4,9 @@
   padding: 10px 0;
 }
 
-.left-nav, .right-nav {
-
-}
+// .left-nav, .right-nav {
+// 
+// }
 
 
 .left-nav > ul,
@@ -19,14 +19,14 @@
 
 .left-nav > ul > li {
   font-size: 16;
-  font-family: cursive;
+  font-family: helvetica;
   text-transform: capitalize;
   padding: 5px 5px; 
 }
 
 .right-nav > ul > li {
   font-size: 16;
-  font-family: cursive;
+  font-family: helvetica;
   text-transform: capitalize;
   padding: 5px 5px; 
 }
@@ -35,16 +35,17 @@
   font-size: 16px;
 }
 
+
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  background-color: $lightest-gray;
+  background-color: $gray;
 }
 
-.left-nav span {
-
-}
-
-
-.right-nav i {
-
-}
+// .left-nav span {
+// 
+// }
+// 
+// 
+// .right-nav i {
+// 
+// }

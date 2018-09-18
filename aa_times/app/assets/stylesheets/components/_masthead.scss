@@ -16,7 +16,9 @@
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
-
+.language-nav ul > li:first-of-type {
+  font-weight: bold;
+}
 .language-nav a {
 	margin: 0 5px;
 	text-transform: uppercase;
@@ -44,7 +46,7 @@
 
 .masthead-links li {
 	margin-left: 10px;
-	border-right: 1px solid $light-gray;
+	// border-right: 1px solid $light-gray;
 }
 
 .masthead-links button {
